@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; }
+
+.container {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%; }
+
+.button {
+  background-color: #9b59b6;
+  color: #ecf0f1;
+  border: none; }
+
+nav {
+  height: 10vh;
+  display: grid;
+  align-items: center;
+  background-color: #ecf0f1; }
+  nav .icon {
+    margin-left: 0;
+    position: absolute;
+    list-style: none;
+    font-size: 3em;
+    font-family: Monda;
+    font-weight: lighter; }
+  nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+  nav li {
+    margin-bottom: 0;
+    margin-left: 2rem; }
+  nav a {
+    color: black;
+    font-family: Monda;
+    font-size: 1.3rem; }
+
+.hero {
+  height: auto;
+  color: white;
+  background: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 17rem;
+  text-align: center; }
+  .hero h1 {
+    font-weight: lighter; }
+  .hero .button {
+    border-radius: 0;
+    margin: 1rem; }
+
+.sec1 {
+  display: flex;
+  align-items: center; }
+  .sec1 p {
+    padding-right: 1rem; }
+
+.sec2 {
+  height: auto;
+  background: url("../img/water.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 2rem;
+  color: #ecf0f1; }
+  .sec2 h1 {
+    margin-top: 1rem; }
+  .sec2 .button {
+    margin-top: 1rem;
+    color: #ecf0f1;
+    margin: 10px 20px 10px 20px;
+    border-radius: 0; }
+
+footer {
+  background-color: #34495e;
+  padding: 5em 2rem; }
+  footer p {
+    float: left;
+    margin-bottom: 0;
+    color: #ecf0f1; }
+  footer .footer_icons {
+    float: right; }
+    footer .footer_icons a {
+      width: auto;
+      height: auto;
+      margin-left: 1rem; }
+      footer .footer_icons a .iconify {
+        width: 2.2rem;
+        height: 2.2rem;
+        color: #ecf0f1; }
+
+/*# sourceMappingURL=style.css.map */
